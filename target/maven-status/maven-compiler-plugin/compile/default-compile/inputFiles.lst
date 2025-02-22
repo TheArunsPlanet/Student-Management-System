@@ -1,0 +1,12 @@
+C:\Users\Arunb\sms-project\src\main\java\com\sms\dao\ProfessorDAO.java
+C:\Users\Arunb\sms-project\src\main\java\com\sms\dao\StudentDAO.java
+C:\Users\Arunb\sms-project\src\main\java\com\sms\model\Professor.java
+C:\Users\Arunb\sms-project\src\main\java\com\sms\model\Student.java
+C:\Users\Arunb\sms-project\src\main\java\com\sms\servlet\DeleteServlet.java
+C:\Users\Arunb\sms-project\src\main\java\com\sms\servlet\LogoutServlet.java
+C:\Users\Arunb\sms-project\src\main\java\com\sms\servlet\ProfessorLoginServlet.java
+C:\Users\Arunb\sms-project\src\main\java\com\sms\servlet\RegisterProfessorServlet.java
+C:\Users\Arunb\sms-project\src\main\java\com\sms\servlet\RegisterServlet.java
+C:\Users\Arunb\sms-project\src\main\java\com\sms\servlet\StudentLoginServlet.java
+C:\Users\Arunb\sms-project\src\main\java\com\sms\servlet\UpdateServlet.java
+C:\Users\Arunb\sms-project\src\main\java\com\sms\util\DBConnection.java

@@ -1,0 +1,160 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background: #212121; /* Dark background like the image */
+    color: #fff; /* White text for contrast */
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container (centered, dark box) */
+.container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background: #0d0d0d; /* Darker box background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    text-align: center; /* Center all content */
+}
+
+/* Headings */
+h1, h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.5em; /* Slightly smaller for minimalist look */
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+/* Forms (centered and compact) */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center form items */
+    gap: 10px; /* Tight spacing */
+    width: 100%;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left; /* Align labels left within centered form */
+    width: 100%;
+    max-width: 250px; /* Match input width */
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #444;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 250px;
+    background: #333; /* Dark input background */
+    color: #fff;
+}
+
+/* Button and Link Styles (remove colors, but keep the capsule effect) */
+a, button, input[type="submit"] {
+    color: inherit; /* Inherit color from parent (no color set here) */
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    width: 100%;
+    max-width: 150px;
+    padding: 10px 20px;  /* Define padding here */
+    border: 3px solid transparent; /* Initial transparent border */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+    background: none; /* No background color */
+    cursor: pointer;
+    text-align: center;
+}
+
+a:hover, button:hover, input[type="submit"]:hover {
+    border-color: white;  /* Change border to white on hover */
+}
+
+/* Role sections (for index.jsp) */
+.student-section, .professor-section {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+/* Table (for dashboard.jsp) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+th {
+    background: #222;
+    color: #fff;
+}
+
+tr:hover {
+    background: #444;
+}
+
+/* Messages */
+.success {
+    color: #28a745;
+    margin: 10px 0;
+}
+
+.error {
+    color: #dc3545;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc;
+    font-size: 0.9em;
+    background: #222;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+    .container {
+        padding: 10px;
+        max-width: 90%;
+    }
+
+    input[type="text"], input[type="password"], input[type="submit"], a, button {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+}
